@@ -1,8 +1,5 @@
 
 def Justificador(txt_justificar):
-    array_espacios = []
-    array_cantidad = []
-    array_espacios_necesarios = []
     nuevo_Arreglo = []
     for texto in txt_justificar:
         if texto != txt_justificar[len(txt_justificar)-1]:
