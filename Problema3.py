@@ -10,12 +10,13 @@ def CadenasSubsecuentes(ca1, ca2):
 
 print("Ingrese una cadena: ")
 cadena1 = input()
-
+cadena1min = cadena1.lower() 
 
 print("Ingrese una cadena: ")
 cadena2 = input()
+cadena2min = cadena2.lower() 
 
 if (len(cadena1) != len(cadena2)):
     print("La cadena debe ser del mismo tamaño");
 else:
-    CadenasSubsecuentes(cadena1,cadena2)
+    CadenasSubsecuentes(cadena1min,cadena2min)
